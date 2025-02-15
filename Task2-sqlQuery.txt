@@ -1,0 +1,4 @@
+INSERT INTO users (username, email) VALUES ('Varis', 'varis.rana@gmail.com');
+INSERT INTO products (name, description, price) VALUES ('Laptop', 'High-end gaming laptop', 1500.00);
+INSERT INTO orders (user_id, status) VALUES (1, 'COMPLETED');
+INSERT INTO order_items (order_id, product_id, quantity, unit_price) VALUES (1, 1, 1, 1500.00);
